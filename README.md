@@ -7,54 +7,28 @@ I intend to create a website that allows users to choose who they think will win
 
 ---
 ## Minimum Viable Product
-* Django DB with 'User', 'Season', and 'Game' models
-* Full CRUD for all models on front-end
+* Django DB with 'User', 'Season', 'Game', 'Bucket', and 'Pick' models
+* Full CRUD on backend for all models
+* Full CRUD on frontend for 'User', 'Bucket', and 'Pick'
 * Log-In functionality
+* 
 
 **New Technology**
 * 
 
 ---
 ## Stretch Goals
-* 
+* Add extra "betting" options and subsequent rewards/penalties
+*  
+
 ---
 ## Project Schedule
-**4/2**
-1. Create ReadMe
-2. Create ERD
-3. Create backend files
-4. Create Wireframes
-5. Create Component Heirarchy Diagram
-
-**4/3**
-1. Create frontend files
-2. 
-
-**4/4**
-
-
-**4/5**
-
-
-**4/6-7**
-
-
-**4/8**
-
-
-**4/9**
-
-
-**4/10**
-
-
-**4/11**
-
+[Bucket-Battles-Trello-Board](https://trello.com/invite/b/i8rCWCjS/ATTIfd93fd88ba99645a42e78e35bf2614b1A7BF2A9E/bucket-battles-board)
 
 ---
 ## Design Plans
 **ERD**
-
+![Image](/ERD/Bucket%20Battles%20ERD.jpg)
 **WireFrame**
 
 **Component Heirarchy Diagram**
