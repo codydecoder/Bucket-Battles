@@ -29,9 +29,11 @@ I intend to create a website that allows users to choose who they think will win
 ## Design Plans
 **ERD**
 ![Image](/ERD/Bucket%20Battles%20ERD.jpg)
+
 **WireFrame**
 
 **Component Heirarchy Diagram**
+![Image](/CHD/Bucket%20Battles%20CHD.jpg)
 
 ---
 ## Technologies Used
