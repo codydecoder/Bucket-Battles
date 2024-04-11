@@ -7,7 +7,9 @@ const main = async () => {
     const seasons = [
         {
             year: '2023-2024',
-            games: []
+            games: [
+                
+            ]
         }
     ]
 

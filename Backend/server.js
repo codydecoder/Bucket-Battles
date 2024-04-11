@@ -27,30 +27,30 @@ app.listen(PORT, () => console.log(`Listening on port: ${PORT}`))
 
 
 app.get('/', (req, res) => res.send('This is our landing page!'))
-/*
+
 //user controllers
 app.get('/users', userController.getAllUsers)
 app.get('/users/:id', userController.getUserById)
 
 //team controllers
-app.get('/teams', teamController.getAllUsers)
-app.get('/teams/:id', teamController.getUserById)
+app.get('/teams', teamController.getAllTeams)
+app.get('/teams/:id', teamController.getTeamById)
 
 //season controllers
-app.get('/seasons', seasonController.getAllUsers)
-app.get('/seasons/:id', seasonController.getUserById)
+app.get('/seasons', seasonController.getAllSeasons)
+app.get('/seasons/:id', seasonController.getSeasonById)
 
 //game controllers
-app.get('/games', gameController.getAllUsers)
-app.get('/games/:id', gameController.getUserById)
+app.get('/games', gameController.getAllGames)
+app.get('/games/:id', gameController.getGameById)
 
 //bucket controllers
-app.get('/buckets', bucketController.getAllUsers)
-app.get('/buckets/:id', bucketController.getUserById)
+app.get('/buckets', bucketController.getAllBuckets)
+app.get('/buckets/:id', bucketController.getBucketById)
 
 //pick controllers
-app.get('/picks', pickController.getAllUsers)
-app.get('/picks/:id', pickController.getUserById)
+app.get('/picks', pickController.getAllPicks)
+app.get('/picks/:id', pickController.getPickById)
 
 
 
@@ -74,4 +74,4 @@ app.get('/picks/:id', pickController.getUserById)
 // app.post('/users', userController.createUser)
 // app.put('/users/:id', userController.updateUser)
 // app.delete('/users/:id', userController.deleteUser)
-*/
+
