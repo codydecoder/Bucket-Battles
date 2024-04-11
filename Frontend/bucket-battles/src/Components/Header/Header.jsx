@@ -5,8 +5,7 @@ import Nav from './Nav'
 
 const Header = ({ user }) => {
     return (
-        <header className='header-container'>
-            <h1>Header</h1>
+        <header className="container mx-auto border-2 rounded- border-black bg-gray-400 p-2">
             <LogIn/>
             <Logo/>
             <Nav/>
