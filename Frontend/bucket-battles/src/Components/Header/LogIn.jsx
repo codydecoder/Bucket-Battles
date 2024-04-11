@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function LogIn() {
 
     return (
-        <div className='LogIn-container'>
+        <div className=''>
             <h1>login</h1>
             
         </div>
