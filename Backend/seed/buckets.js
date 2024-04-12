@@ -4,13 +4,15 @@ const { User, Game, Pick } = require('../models')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-const cody = await User.find({username: 'coderdecoder'})
-const tim = await User.find({username: 'timmyDunkin'})
-const gregg = await User.find({username: 'PoppaGregg'})
-const vic = await User.find({username: 'victorFromFrance'})
-const manu = await User.find({username: 'manuBatman'})
 
 const main = async () => {
+
+    const cody = await User.find({username: 'coderdecoder'})
+    const tim = await User.find({username: 'timmyDunkin'})
+    const gregg = await User.find({username: 'PoppaGregg'})
+    const vic = await User.find({username: 'victorFromFrance'})
+    const manu = await User.find({username: 'manuBatman'})
+
     const buckets = [
         {
             owner: cody._id,
@@ -20,8 +22,12 @@ const main = async () => {
                 vic._id,
                 manu._id
             ],
-            games: [],
-            picks: []
+            games: [
+
+            ],
+            picks: [
+                
+            ]
         }
     ]
 
