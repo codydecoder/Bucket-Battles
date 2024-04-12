@@ -7,9 +7,9 @@ I intend to create a website that allows users to choose who they think will win
 
 ---
 ## Minimum Viable Product
-* Django DB with 'User', 'Season', 'Game', 'Bucket', and 'Pick' models
+* Mongo DB with 'User', 'Game', and 'Pick' models
 * Full CRUD on backend for all models
-* Full CRUD on frontend for 'User', 'Bucket', and 'Pick'
+* Full CRUD on frontend for 'User', and 'Pick'
 * Log-In functionality
 * 
 
@@ -47,8 +47,7 @@ I intend to create a website that allows users to choose who they think will win
 **Back-End**
 * Node
 * Axios
-* Python
-* Django
+* MongoDB
 
 ---
 ## Project Status
