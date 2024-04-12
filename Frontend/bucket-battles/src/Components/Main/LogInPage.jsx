@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const LoginPage = ({ onLogin }) => {
+const LoginPage = ({ onLogin, onLogout }) => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
@@ -19,11 +19,11 @@ const LoginPage = ({ onLogin }) => {
   }
 
   return (
-    <div className="">
-      <div className=''>Login Page</div>
+    <div className='border-2 border-black bg-gray-200 container mx-auto p-4 m-0 border-t-0 border-b-0 min-h-full'>
+      <div className='m-1 text-2xl font-bold'>Login Page</div>
       <form className='' onSubmit={handleSubmit}>
         <input
-          className=''
+          className='m-1 border-4 border-gray-400 rounded'
           type="text"
           placeholder="Username"
           value={username}
@@ -31,17 +31,17 @@ const LoginPage = ({ onLogin }) => {
           required
         />
         <input
-          className=''
+          className='m-1 border-4 border-gray-400 rounded'
           type="password" 
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button className='' type="submit">Login Now</button>
+        <button className='bg-red-500 text-black font-bold p-1 px-2 border-2 border-red-700 rounded m-1' type="submit">Login Now</button>
       </form>
-      <button className='' onClick={handleLogout}>Logout</button>
-      <button className='' onClick={() => navigate('/createAccount')}>Create Account</button>
+      <button className='bg-red-500 text-black font-bold p-1 px-2 border-2 border-red-700 rounded m-1' onClick={handleLogout}>Logout</button>
+      <button className='bg-red-500 text-black font-bold p-1 px-2 border-2 border-red-700 rounded m-1' onClick={() => navigate('/createAccount')}>Create Account</button>
     </div>
   )
 }

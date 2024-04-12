@@ -5,12 +5,9 @@ import GitHubProject from './GitHubProject'
 export default function Footer () {
     
     return (
-        <footer className='footer-container'>
-            <h1>footer</h1>
+        <footer className='container mx-auto border-2 border-black bg-gray-400 p-2 space-x-4 '>
             <GitHubProfile/>
             <GitHubProject/>
         </footer>
     )
 }
-
-
